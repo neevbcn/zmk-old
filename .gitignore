@@ -1,0 +1,17 @@
+# ZMK build artifacts
+build/
+
+# Python virtual environment
+.venv/
+venv/
+bin/
+lib/
+share/
+pyvenv.cfg
+
+# Zephyr/West
+.west/
+zephyr/
+modules/
+tools/
+bootloader/

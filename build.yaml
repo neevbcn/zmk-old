@@ -1,0 +1,8 @@
+# This file controls which firmware files are built by GitHub Actions.
+# It pairs the board (nRF52840 controller) with the shield (Corne).
+
+include:
+  - board: nice_nano_v2
+    shield: corne_left
+  - board: nice_nano_v2
+    shield: corne_right
